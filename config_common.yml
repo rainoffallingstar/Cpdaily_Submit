@@ -9,40 +9,40 @@ cpdaily:
   defaults:
     - default:
         #表单项标题
-        title: 今天你的所在地是？
+        title: 今日是否在校？
         #表单项类型，对应今日校园接口返回的fieldType字段，1代表文本，2代表单选，3代表多选，4代表图片
-        type: 1
+        type: 2
         #表单项默认值, 三级选项选择用 '/' 分隔
-        value: 福建省/福州市/仓山区
+        value: 校外教学点
     - default:
-        title: 今天你的体温是多少？
+        title: 你所在的宿舍？
+        type: 1
+        value: 新楼203
+    - default:
+        title: 你今天的体温是多少？
         type: 2
-        value: 37.2℃及以下
+        value: 36~37.2℃
     - default:
-        title: 今天你的身体状况是？
-        type: 2
-        value: 健康
+        title: 你当日的心理健康状况？
+        type: 3
+        value: 正常
     - default:
-        title: 近14天你或你的共同居住人是否有疫情中、高风险区域人员接触史？
-        type: 2
-        value: 否
-    - default:
-        title: 近14天你或你的共同居住人是否和确诊、疑似病人接触过？
-        type: 2
-        value: 否
-    - default:
-        title: 近14天你或你的共同居住人是否是确诊、疑似病例？
+        title: 你目前是否被隔离？
         type: 2
         value: 否
     - default:
-        title: 你或你的共同居住人目前是否被医学隔离？
+        title: 如果被隔离，请选择你的隔离类型（未被隔离的选否）
         type: 2
         value: 否
+    #- default:
+    #    title: 你或你的共同居住人目前是否被医学隔离？
+     #   type: 2
+       # value: 否
+    #- default:
+    #    title: 今天你当地的健康码颜色是？
+     #   type: 2
+      #  value: 绿色
     - default:
-        title: 今天你当地的健康码颜色是？
-        type: 2
-        value: 绿色
-    - default:
-        title: 本人是否承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处    
+        title: 本人是否承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处?    
         type: 2
         value: 是
