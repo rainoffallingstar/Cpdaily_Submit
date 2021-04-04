@@ -1,6 +1,6 @@
 # AutoSubmit Multi-user
 
-通过使用Github的Actions功能完成今日校园疫情信息收集自动打卡签到，[auto-submit](https://github.com/ZimoLoveShuang/auto-submit) 项目的Action版本。
+fjmu通过使用Github的Actions功能完成今日校园疫情信息收集自动打卡签到，[auto-submit](https://github.com/ZimoLoveShuang/auto-submit) 项目的Action版本。
 
 ## 前提条件
 - [x] Github账号
